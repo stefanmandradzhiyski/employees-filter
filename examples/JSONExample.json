@@ -1,0 +1,172 @@
+{
+	"employees" : [
+		{
+			"empId" : "4",
+			"projectId" : "1",
+			"dateFrom" : "2016-09-08", 
+			"dateTo" : "11-11-2018"
+		},
+		{
+			"empId" : "9",
+			"projectId" : "2",
+			"dateFrom" : "2015-11-12", 
+			"dateTo" : "07/9/2017"
+		},
+		{
+			"empId" : "3",
+			"projectId" : "2",
+			"dateFrom" : "5/4/2016", 
+			"dateTo" : "4/4/2018"
+		},
+		{
+			"empId" : "6",
+			"projectId" : "2",
+			"dateFrom" : "06.09.2017", 
+			"dateTo" : "2016.9.9"
+		},
+		{
+			"empId" : "10",
+			"projectId" : "1",
+			"dateFrom" : "2015/12/12", 
+			"dateTo" : "NULL"
+		},
+		{
+			"empId" : "6",
+			"projectId" : "3",
+			"dateFrom" : "10-10-2017", 
+			"dateTo" : "2019-01-28"
+		},
+		{
+			"empId" : "1",
+			"projectId" : "1",
+			"dateFrom" : "2011.01.21", 
+			"dateTo" : "05.06.2015"
+		},
+		{
+			"empId" : "2",
+			"projectId" : "3",
+			"dateFrom" : "2016.05.05", 
+			"dateTo" : "2016-10-15"
+		},
+		{
+			"empId" : "1",
+			"projectId" : "3",
+			"dateFrom" : "9/9/2016", 
+			"dateTo" : "NULL"
+		},
+		{
+			"empId" : "10",
+			"projectId" : "2",
+			"dateFrom" : "2016-15-11", 
+			"dateTo" : "2016-10-15"
+		},
+		{
+			"empId" : "8",
+			"projectId" : "1",
+			"dateFrom" : "2018-04-04", 
+			"dateTo" : "04.08.2017"
+		},
+		{
+			"empId" : "9",
+			"projectId" : "1",
+			"dateFrom" : "11-11-2019", 
+			"dateTo" : "2016-10-15"
+		},
+		{
+			"empId" : "1",
+			"projectId" : "2",
+			"dateFrom" : "1.1.2017", 
+			"dateTo" : "NULL"
+		},
+		{
+			"empId" : "2",
+			"projectId" : "1",
+			"dateFrom" : "2015-04-04", 
+			"dateTo" : "5-5-2017"
+		},
+		{
+			"empId" : "6",
+			"projectId" : "1",
+			"dateFrom" : "2014-9-7", 
+			"dateTo" : "07/5/2016"
+		},
+		{
+			"empId" : "6",
+			"projectId" : "2",
+			"dateFrom" : "1/2/2015", 
+			"dateTo" : "8/4/2018"
+		},
+		{
+			"empId" : "6",
+			"projectId" : "3",
+			"dateFrom" : "06.09.2017", 
+			"dateTo" : "NULL"
+		},
+		{
+			"empId" : "4",
+			"projectId" : "2",
+			"dateFrom" : "2015/12/12", 
+			"dateTo" : "NULL"
+		},
+		{
+			"empId" : "5",
+			"projectId" : "1",
+			"dateFrom" : "7-7-2016", 
+			"dateTo" : "2018-01-28"
+		},
+		{
+			"empId" : "8",
+			"projectId" : "2",
+			"dateFrom" : "2012.04.11", 
+			"dateTo" : "05.09.2015"
+		},
+		{
+			"empId" : "5",
+			"projectId" : "2",
+			"dateFrom" : "2017.01.04", 
+			"dateTo" : "2016-10-15"
+		},
+		{
+			"empId" : "3",
+			"projectId" : "1",
+			"dateFrom" : "9/9/2016", 
+			"dateTo" : "NULL"
+		},
+		{
+			"empId" : "9",
+			"projectId" : "1",
+			"dateFrom" : "2015-18-07", 
+			"dateTo" : "2016-10-15"
+		},
+		{
+			"empId" : "5",
+			"projectId" : "2",
+			"dateFrom" : "2016-04-04", 
+			"dateTo" : "04.08.2017"
+		},
+		{
+			"empId" : "10",
+			"projectId" : "3",
+			"dateFrom" : "02-11-2016", 
+			"dateTo" : "2017-10-15"
+		},
+		{
+			"empId" : "7",
+			"projectId" : "1",
+			"dateFrom" : "2.4.2017", 
+			"dateTo" : "NULL"
+		},
+		{
+			"empId" : "7",
+			"projectId" : "2",
+			"dateFrom" : "2015-04-04", 
+			"dateTo" : "5-5-2018"
+		},
+		{
+			"empId" : "5",
+			"projectId" : "1",
+			"dateFrom" : "2014-9-7", 
+			"dateTo" : "07/5/2016"
+		}
+	]
+}

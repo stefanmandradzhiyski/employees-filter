@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
+	<script src="js/parser.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+    <title>Employees Filter</title>
+</head>
+<body>
+	<div class="main-div">
+		<h1>Find the longest collaboration of a pair of employees on the same project</h1>
+		<p>Employees list will be filtered if all these requirements are met:<br>
+			- Must has <b>.txt, .csv</b> or <b>.json</b> file extension;<br>
+			- Must be valid file structure depends on the file extension;<br>
+			- Must contains <b>'EmpID', 'ProjectID', 'DateFrom', 'DateTo'</b> columns/fields;<br>
+			- Fields <b>'EmpID', 'ProjectID'</b> and <b>'DateFrom'</b> fields are mandatory while <b>'DateTo'</b> column is optional;<br>
+			- Fields <b>'EmpID'</b> and <b>'ProjectID'</b> must be a whole number (integer) greater than <b>0</b>;<br>
+			- Fields <b>'DateFrom'</b> and <b>'DateTo'</b> must be date with standard format. As example: 2020-11-02;<br>
+			- Minimum list size is between <b>2</b> and <b>512</b>;<br>
+		</p>
+
+		<div class="row">
+		    <div class="column">
+		    	<p><b>CSV and TXT file example</b></p>
+				<img src="img/txt-csv.png">
+		    </div>
+		    <div class="column">
+		    	<p><b>JSON file example</b></p>
+				<img src="img/json.png">
+		    </div>
+		</div>
+
+		<h3>Browse .txt, .csv or .json file</h3>
+		<button id="btn-browse">Browse</button>
+		<input id="browser" type="file" style="position: fixed; top: -100em" accept=".txt, .csv, .json">
+	</div>
+
+	<table id="table">
+	    <tr>
+	        <th>Employer 1 Id</th>
+	        <th>Employer 2 Id</th>
+	        <th>Project Id</th>
+	        <th>Days worked</th>
+	    </tr>
+	</table>
+</body>
+</html>
